@@ -540,7 +540,7 @@ class Q_Map_DQN_Agent:
             action_type = 'dqn'                    
         
         if self.use_q_map:
-            q_map_values = 2*q_map_values.detach().cpu().numpy()
+            q_map_values = q_map_values.detach().cpu().numpy()
             q_map_values = np.moveaxis(q_map_values, 0, -1)                 
         self.add_to_renderer(ob, q_map_values, ac, action_type, q_map_candidates, q_map_biased_candidates)
         
