@@ -9,7 +9,7 @@ git clone https://github.com/fabiopardo/qmap.git
 cd qmap  
 pip install -e .  
 and copy the SuperMarioAllStars-Snes folder to the retro/data/stable directory where Gym Retro is installed.  
-Finally clone this repository into the qmap folder  \
+Finally clone this repository into the qmap folder  
 
 Usage: python train_mario.py  
 
