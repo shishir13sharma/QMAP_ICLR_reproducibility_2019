@@ -6,12 +6,12 @@ First make sure you have Pytorch, Baselines, Gym and Gym Retro installed. This c
 To install this package, run:
 
 git clone https://github.com/fabiopardo/qmap.git
-cd qmap
-pip install -e .
-and copy the SuperMarioAllStars-Snes folder to the retro/data/stable directory where Gym Retro is installed.
-Finally clone this repository into the qmap folder
+cd qmap  
+pip install -e .  
+and copy the SuperMarioAllStars-Snes folder to the retro/data/stable directory where Gym Retro is installed.  
+Finally clone this repository into the qmap folder  \
 
-Usage: python train_mario.py
+Usage: python train_mario.py  
 
-For loading a previously saved model, simply pass the DQN or Q-Map files step value as load argument.
-The training of the agent can also be accomplished by running the jupyter notebook train_mario.ipynb
+For loading a previously saved model, simply pass the DQN or Q-Map files step value as load argument.  
+The training of the agent can also be accomplished by running the jupyter notebook train_mario.ipynb  
